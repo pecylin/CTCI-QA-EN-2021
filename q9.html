@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>CITC Interactive game</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">CTCI 中鼎工程股份有限公司 CTCI corporation</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="A" data-next="q10.html">
+				<p class="text-tips">Please drag the bag with the correct answer to the clip</p>
+				<p class="q q-9">As the best employer that offers brilliant workplace, CTCI created an online learning platform in 2020 that provides mandatory courses catering to the needs of each colleague’s job position, as a way to facilitate employees’ career development and nurture engineering talents. What is the name of this learning platform?</p>
+				<div class="clip">
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+				</ul>
+				<ul class="ans ans-q9">
+					<li class="ans-item">A. CTCI University</li>
+					<li class="ans-item">B. Career University</li>
+					<li class="ans-item">C. Welfare University</li>
+					<li class="ans-item">D. Engineering University</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 CTCI All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; Back </a>
+				<div class="rightAns rightAns--pos">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">As the best employer that offers brilliant workplace, CTCI created an online learning platform in 2020 that provides mandatory courses catering to the needs of each colleague’s job position, as a way to facilitate employees’ career development and nurture engineering talents. What is the name of this learning platform?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">CTCI University</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>

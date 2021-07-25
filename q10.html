@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>CITC Interactive game</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="sr-only">CTCI 中鼎工程股份有限公司 CTCI corporation</h1>
+		</header>
+		<div class="main">
+			<div class="game" data-anwser="A" data-next="success.html">
+				<p class="text-tips">Please drag the bag with the correct answer to the clip</p>
+				<p class="q q-10">CTCI established CTCI Education Foundation in 2016 to help promote the nation’s sustainable development. Which of the following sets of issues are CTCI EF’s main concerns, based on which it carries out relevant activities?</p>
+				<div class="clip">
+					<span class="clip-body"></span>
+				</div>
+				<ul class="dragObject">
+					<li class="dragObject-item"><span class="sr-only">A</span></li>
+					<li class="dragObject-item"><span class="sr-only">B</span></li>
+					<li class="dragObject-item"><span class="sr-only">C</span></li>
+					<li class="dragObject-item"><span class="sr-only">D</span></li>
+				</ul>
+				<ul class="ans ans-q10">
+					<li class="ans-item">A. Empower young talents and increase their knowledge on sustainability topics</li>
+					<li class="ans-item">B. IT education and academic support for children in rural areas</li>
+					<li class="ans-item">C. Corporate profit and employment</li>
+					<li class="ans-item">D. Social safety and public health</li>
+				</ul>
+			</div>
+		</div>
+		<footer>Copyright ©2021 CTCI All rights reserved.</footer>
+		<div class="error" style="display: none;">
+			<div class="error-content">
+				<a href="javascript:" class="btn-back"> &lt; &lt; Back </a>
+				<div class="rightAns rightAns--pos">
+					<p class="title-rightAns"><span class="title-rightAns-q">Q :</span><span class="title-rightAns-ans">CTCI established CTCI Education Foundation in 2016 to help promote the nation’s sustainable development. Which of the following sets of issues are CTCI EF’s main concerns, based on which it carries out relevant activities?</span></p>
+					<p class="text-rightAns"><span class="title-rightAns-a">A :</span><span class="title-rightAns-ans">Empower young talents and increase their knowledge on sustainability topics</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/game.js"></script>
+</body>
+</html>
