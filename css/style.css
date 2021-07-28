@@ -147,7 +147,7 @@ h2 {
 .q {
 	width: 63%;
 	position: absolute;
-	top: 91px;
+	top: 85px;
 	left: 240px;
 	font-size: 1.5em;
 	line-height: 1.5;
@@ -161,7 +161,7 @@ h2 {
 	top: 65px;
 }
 .q-6{
-	line-height: 1.4;
+	font-size: 1.4em;
 }
 .q-8, .q-9{
 	font-size: 1.3em;
@@ -179,50 +179,51 @@ h2 {
 	line-height: 1.8;
 }
 .ans-item {
+	list-style: upper-alpha;
 	padding-right: 50px;
 	box-sizing: border-box;
 }
 .ans-q1{
 	width: 90%;
-	left: 9%;
+	left: 12%;
 }
 .ans-q2{
 	width: 70%;
-	left: 22%;
+	left: 26%;
 }
 .ans-q3{
 	width: 85%;
-	left: 12%;
+	left: 16%;
 }
 .ans-q4{
 	width: 65%;
-	left: 22%;
+	left: 27%;
 }
 .ans-q5{
 	width: 95%;
-	left: 8%;
+	left: 14%;
 }
 .ans-q6{
 	width: 90%;
-	left: 8%;
+	left: 15%;
 }
 .ans-q7{
 	width: 100%;
 	top: 844px;
-	left: 5%;
+	left: 6%;
 	font-size: 1em;
 }
 .ans-q8{
 	width: 80%;
-	left: 16%;
+	left: 22%;
 }
 .ans-q9{
 	width: 90%;
-	left: 11%;
+	left: 17%;
 }
 .ans-q10{
 	width: 98%;
-	left: 5%;
+	left: 8%;
 }
 .dragObject {
 	width: 88%;
@@ -376,11 +377,11 @@ footer {
 }
 
 .title-rightAns-ans{
-	width:70.%;
+	width:85%;
 	display: block;
 }
 .title-rightAns-q,.title-rightAns-a{
-	width:30%;
+	width:33%;
 	display:block;
 	color:white;
 	font-size:3.6rem;
