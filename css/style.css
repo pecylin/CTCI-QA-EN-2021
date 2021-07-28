@@ -157,8 +157,14 @@ h2 {
 .q-1,.q-5{
 	top: 138px;
 }
-.q-6,.q-7,.q-8,.q-9,.q-10{
+.q-6,.q-7,.q-8.q-8,.q-9,.q-10{
 	top: 65px;
+}
+.q-6{
+	line-height: 1.4;
+}
+.q-8, .q-9{
+	font-size: 1.3em;
 }
 .ans {
 	width: 76%;
@@ -359,7 +365,7 @@ footer {
 	bottom: 100px
 }
 .rightAns--pos{
-	top:235px;
+	top:230px;
 }
 .title-rightAns,.text-rightAns{
 	width: 100%;
@@ -370,7 +376,7 @@ footer {
 }
 
 .title-rightAns-ans{
-	width:64%;
+	width:70.%;
 	display: block;
 }
 .title-rightAns-q,.title-rightAns-a{
